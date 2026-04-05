@@ -158,15 +158,15 @@
 <body>
 <div class="container">
   <header>
-    <div class="logo">EQ STUDIO</div>
-    <div class="subtitle">AUDIO EQUALIZER — REAL-TIME MP3 PROCESSING</div>
+    <div class="logo">DEGE EQUALIZER</div>
+    <div class="subtitle">SOUND EQUALIZER — REAL-TIME MP3 </div>
   </header>
 
   <!-- MP3 PLAYER -->
   <div class="player-panel">
     <div class="panel-label">▶ MP3 PLAYER</div>
     <div class="player-top">
-      <label class="upload-btn" for="fileInput">📂 BUKA FILE MP3</label>
+      <label class="upload-btn" for="fileInput">📂 CHOOSE FILE MP3</label>
       <input type="file" id="fileInput" accept="audio/*">
       <div class="track-info">
         <div class="track-name empty" id="trackName">— Belum ada file. Upload MP3 untuk mulai —</div>
@@ -224,7 +224,7 @@
 
   <!-- Factory Presets -->
   <div class="presets-panel">
-    <div class="panel-label">▶ FACTORY PRESET</div>
+    <div class="panel-label">▶ DEFAULT PRESET</div>
     <div class="preset-grid" id="presets"></div>
   </div>
 
@@ -244,18 +244,18 @@
     <button class="control-btn" onclick="flatEQ()">— FLAT</button>
   </div>
 
-  <footer>EQ STUDIO &nbsp;|&nbsp; WEB AUDIO API — REAL EQ PROCESSING &nbsp;|&nbsp; © 2026</footer>
+  <footer>EQ STUDIO &nbsp;|&nbsp; WEB AUDIO API — REAL EQ PROCESSING &nbsp;|&nbsp; © Keyaru</footer>
 </div>
 
 <!-- Modal -->
 <div class="modal-overlay" id="modalOverlay">
   <div class="modal">
-    <h3>💾 SIMPAN SETTINGAN</h3>
+    <h3>💾 SAVE SETTINGS</h3>
     <input class="modal-input" id="modalInput" type="text" maxlength="24" placeholder="Nama preset...">
     <div class="modal-hint">Maks 24 karakter • Enter untuk simpan</div>
     <div class="modal-actions">
-      <button class="modal-btn modal-cancel" onclick="closeModal()">BATAL</button>
-      <button class="modal-btn modal-confirm" onclick="confirmSave()">SIMPAN</button>
+      <button class="modal-btn modal-cancel" onclick="closeModal()">CANCEL</button>
+      <button class="modal-btn modal-confirm" onclick="confirmSave()">SAVE</button>
     </div>
   </div>
 </div>
